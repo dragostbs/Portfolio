@@ -1,13 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
 body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  display: flex;
+  top: 0;
+  padding: 18px 16px;
+  position: fixed;
+  width: 100%;
+  z-index: 99999999;
+}
+
+a {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #0e5780;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0e5780;
+}
+
+#home {
+  color: #ff2c2c;
+}
+
+.title1 {
+  display: flex;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  position: relative;
+  margin-left: 1.2%;
+  top: 50px;
+}
+
+.t1 {
+  color: #0e5780;
+  padding-right: 5px;
+}
+
+.t2 {
+  color: #ff2c2c;
+  padding-right: 5px;
+}
+
+.t3 {
+  color: #0e5780;
+  padding-right: 5px;
+}
+
+.title2 {
+  margin-left: 5px;
+  font-size: 3.5vmax;
+  bottom: 80px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.container1 {
+  padding-top: 120px;
+  margin-left: 120px;
+}
+
+.map,
+.phone,
+.envelope {
+  width: 100px;
+  color: #0e5780;
+}
+
+p {
+  color: #0e5780;
+  display: inline;
+}
+
+#info1,
+#info2,
+#info3 {
+  padding: 20px;
+  font-size: small;
+}
+
+.information {
+  margin-top: 120px;
+  margin-left: 50px;
+  font-weight: lighter;
+}
+
+.icons {
+  margin-top: 150px;
+}
+
+#a-link {
+  padding-right: 5px;
+}
+
+.icon1 {
+  color: #0077b7;
+}
+
+.icon2 {
+  color: black;
+}
+
+.icon3 {
+  color: #3a559f;
+}
+
+.icon4 {
+  color: #34aaf3;
+}
+
+.icon5 {
+  color: #0e5780;
+  padding: 10px;
+}
+
+.icon6,
+.icon7 {
+  color: #ff2c2c;
+  margin-top: 37%;
+  padding-left: 70px;
+}
+
+.card1 {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ff2c2c;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgb(160, 159, 159);
+  padding: 5rem;
+  height: 28rem;
+  width: 24rem;
+  letter-spacing: 15px;
+  margin-left: 47%;
+}
+
+.card1:hover {
+  background-color: #ff2c2c;
+}
+
+.card2 {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ff2c2c;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgb(160, 159, 159);
+  padding: 5rem;
+  height: 28rem;
+  width: 24rem;
+  letter-spacing: 15px;
+  margin-top: 12%;
+  margin-left: 7%;
+}
+
+.card2:hover {
+  background-color: #ff2c2c;
+}
+
+.scroll {
+  font-weight: lighter;
+  font-size: x-small;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  position: absolute;
+  margin-left: 210%;
+}
+
+.foto {
+  margin-top: 12rem;
+}
+
+.container2,
+.container3,
+.container4,
+.container5 {
+  display: flex;
+  position: relative;
+}
+
+.title3 {
+  font-size: 3vmax;
+  position: absolute;
+  font-weight: bold;
+  right: 20%;
+  bottom: 58%;
+}
+
+.info-me {
+  font-size: small;
+  margin: 26% 0 0 55%;
+  position: absolute;
+  width: 500px;
+  text-align: justify;
+  line-height: 2.5;
+}
+
+.download-btn {
+  margin: 44% 0 0 24%;
+  background-color: #ff2c2c;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 10%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+.title4 {
+  font-size: 3vmax;
+  position: absolute;
+  font-weight: bold;
+  right: 33%;
+  top: 17%;
+}
+
+.card3 {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ff2c2c;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgb(160, 159, 159);
+  padding: 5rem;
+  height: 8rem;
+  width: 10rem;
+  letter-spacing: 15px;
+  margin-top: 28%;
+  margin-left: 5%;
+}
+
+.card3:hover {
+  background-color: #ff2c2c;
+}
+
+.info {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+.logo1 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin: 25.5% 0 0 14%;
+}
+
+.logo2 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin: 25.5% 0 0 40.7%;
+}
+
+.logo3 {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  margin: 25.5% 0 0 67.5%;
+}
+
+.title5 {
+  font-size: 3vmax;
+  position: absolute;
+  font-weight: bold;
+  right: 38%;
+  top: 15%;
+}
+
+.card4 {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ff2c2c;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgb(160, 159, 159);
+  padding: 5rem;
+  height: 12rem;
+  width: 14rem;
+  letter-spacing: 15px;
+  margin-top: 25%;
+  margin-left: 5.5%;
+  margin-bottom: 13%;
+}
+
+.card4:hover {
+  background-color: #ff2c2c;
+}
+
+.project {
+  margin-top: 2.5rem;
+}
+
+.title6 {
+  font-size: 3vmax;
+  position: absolute;
+  font-weight: bold;
+  right: 42%;
+  top: -10%;
+}
+
+.title-name {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 7.5%;
+  font-size: large;
+}
+
+.input-field1 {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 7.5%;
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 14px 20px;
+  border: none;
+  outline: none;
+}
+
+.title-mail {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 7.5%;
+  font-size: large;
+}
+
+.input-field2 {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 7.5%;
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 14px 20px;
+  border: none;
+  outline: none;
+}
+
+.title-message {
+  position: absolute;
+  margin-top: 26%;
+  margin-left: 7.5%;
+  font-size: large;
+}
+
+.input-field3 {
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 7.5%;
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: none;
+  outline: none;
+  vertical-align: text-top;
+}
+
+.card5 {
+  background-color: white;
+  text-align: center;
+  border: 1px solid #ff2c2c;
+  border-radius: 12px;
+  box-shadow: 0 1px 10px rgb(160, 159, 159);
+  padding: 5rem;
+  height: 25rem;
+  width: 22rem;
+  letter-spacing: 15px;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+.card5:hover {
+  background-color: #ff2c2c;
+}
+
+.submit-btn {
+  margin: 37% 0 0 19%;
+  background-color: #ff2c2c;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  width: 8%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
+}
+
+::placeholder {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 3px;
 }
