@@ -1,0 +1,66 @@
+@mixin title {
+  position: absolute;
+  font-size: large;
+  margin-left: 7.5%;
+}
+
+@mixin input-field {
+  width: 30%;
+  position: absolute;
+  background-color: #f0f0f0;
+  padding: 14px 20px;
+  border: none;
+  outline: none;
+  margin-left: 7.5%;
+}
+
+.title6 {
+  @include header;
+  right: 42%;
+  top: -10%;
+}
+
+.title-name {
+  @include title;
+  margin-top: 10%;
+}
+
+.input-field1 {
+  @include input-field;
+  margin-top: 12%;
+}
+
+.title-mail {
+  @include title;
+  margin-top: 18%;
+}
+
+.input-field2 {
+  @include input-field;
+  margin-top: 20%;
+}
+
+.title-message {
+  @include title;
+  margin-top: 26%;
+}
+
+.input-field3 {
+  @include input-field;
+  margin-top: 28%;
+}
+
+.card5 {
+  @include card;
+  height: 25rem;
+  width: 22rem;
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+.submit-btn {
+  @include btn;
+  margin: 37% 0 0 19%;
+  width: 8%;
+}

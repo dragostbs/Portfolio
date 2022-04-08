@@ -1,0 +1,28 @@
+.card2 {
+  @include card;
+  height: 28rem;
+  width: 24rem;
+  margin-top: 12%;
+  margin-left: 7%;
+}
+
+.title3 {
+  @include header;
+  right: 20%;
+  bottom: 55%;
+}
+
+.info-me {
+  font-size: small;
+  margin: 26% 0 0 55%;
+  position: absolute;
+  width: 500px;
+  text-align: justify;
+  line-height: 2.5;
+}
+
+.download-btn {
+  @include btn;
+  margin: 44% 0 0 24%;
+  width: 10%;
+}

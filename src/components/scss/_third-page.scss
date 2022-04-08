@@ -1,0 +1,45 @@
+@mixin props {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+
+.icon6 {
+  color: #ff2c2c;
+  margin-top: 37%;
+  padding-left: 70px;
+}
+
+.title4 {
+  @include header;
+  right: 33%;
+  top: 20%;
+}
+
+.card3 {
+  @include card;
+  height: 8rem;
+  width: 10rem;
+  margin-top: 28%;
+  margin-left: 5%;
+}
+
+.info {
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+}
+
+.logo1 {
+  @include props;
+  margin: 25.5% 0 0 14%;
+}
+
+.logo2 {
+  @include props;
+  margin: 25.5% 0 0 40.7%;
+}
+
+.logo3 {
+  @include props;
+  margin: 25.5% 0 0 67.5%;
+}

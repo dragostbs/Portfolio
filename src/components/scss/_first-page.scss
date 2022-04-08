@@ -1,0 +1,89 @@
+.container1 {
+  padding-top: 120px;
+  margin-left: 120px;
+
+  .title1 {
+    display: flex;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 1%;
+    top: 52px;
+  }
+}
+
+.title2 {
+  margin-left: 5px;
+  bottom: 100px;
+  @include header;
+
+  & .t1,
+  .t3 {
+    color: #0e5780;
+    padding-right: 5px;
+  }
+  & .t2 {
+    color: #ff2c2c;
+    padding-right: 5px;
+  }
+}
+
+.information {
+  margin-top: 120px;
+  margin-left: 50px;
+  font-weight: lighter;
+
+  & #info1,
+  #info2,
+  #info3 {
+    padding: 20px;
+    font-size: small;
+  }
+  & .map,
+  .phone,
+  .envelope {
+    width: 100px;
+    color: #0e5780;
+  }
+
+  & .scroll {
+    font-weight: lighter;
+    font-size: xx-small;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    position: absolute;
+    margin-left: 240%;
+  }
+
+  & .icon5 {
+    color: #0e5780;
+    padding: 10px;
+  }
+}
+
+.icons {
+  margin-top: 150px;
+
+  & .a-link {
+    padding-right: 5px;
+  }
+  & .icon1 {
+    color: #0077b7;
+  }
+  & .icon2 {
+    color: black;
+  }
+  & .icon3 {
+    color: #3a559f;
+  }
+  & .icon4 {
+    color: #34aaf3;
+  }
+}
+
+.card1 {
+  @include card;
+  height: 26.2rem;
+  width: 24rem;
+  margin-left: 47%;
+}
