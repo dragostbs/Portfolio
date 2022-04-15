@@ -1,66 +1,57 @@
 @mixin title {
-  position: absolute;
   font-size: large;
-  margin-left: 7.5%;
 }
 
 @mixin input-field {
-  width: 30%;
-  position: absolute;
   background-color: #f0f0f0;
   padding: 14px 20px;
   border: none;
   outline: none;
-  margin-left: 7.5%;
+  width: 100%;
+}
+
+.container5 {
+  display: grid;
+  gap: 10rem;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.container44 {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  margin-left: 50px;
 }
 
 .title6 {
   @include header;
-  right: 42%;
-  top: -10%;
 }
 
-.title-name {
-  @include title;
-  margin-top: 10%;
-}
-
-.input-field1 {
-  @include input-field;
-  margin-top: 12%;
-}
-
-.title-mail {
-  @include title;
-  margin-top: 18%;
-}
-
-.input-field2 {
-  @include input-field;
-  margin-top: 20%;
-}
-
+.title-name,
+.title-mail,
 .title-message {
   @include title;
-  margin-top: 26%;
+  text-align: start;
 }
 
+.input-field1,
+.input-field2,
 .input-field3 {
   @include input-field;
-  margin-top: 28%;
+  display: flex;
 }
 
 .card5 {
   @include card;
-  height: 25rem;
-  width: 22rem;
-  margin-left: 30%;
-  margin-top: 5%;
-  margin-bottom: 6%;
+  height: 35rem;
+  width: 30rem;
 }
 
 .submit-btn {
   @include btn;
-  margin: 37% 0 0 19%;
-  width: 8%;
+  width: 20%;
 }

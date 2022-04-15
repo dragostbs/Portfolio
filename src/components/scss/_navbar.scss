@@ -1,13 +1,36 @@
-.navbar {
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-  display: inline-block;
-  padding: 18px 16px;
+header {
   position: fixed;
+  z-index: 999;
   width: 100%;
-  z-index: 99;
 
   & #home {
     color: #ff2c2c;
   }
+}
+
+nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: hsl(0, 0%, 100%);
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  padding: 20px;
+}
+
+nav a {
+  color: #0e5780;
+  text-decoration: none;
+  padding: 50px;
 }

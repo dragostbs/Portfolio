@@ -4,7 +4,7 @@
   border: 1px solid #ff2c2c;
   border-radius: 12px;
   box-shadow: 0 1px 10px rgb(160, 159, 159);
-  padding: 5rem;
+  padding: 4rem;
   letter-spacing: 15px;
 
   &:hover {
@@ -25,26 +25,31 @@
 }
 
 @mixin header {
-  font-size: 3vmax;
-  position: absolute;
+  font-size: 48px;
   font-weight: bold;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 3px;
-  margin: 0;
+}
+
+main {
+  display: grid;
+  gap: 10rem;
+  place-items: center;
 }
 
 p {
   color: #0e5780;
   display: inline;
-}
-
-a {
-  color: #0e5780;
-  text-decoration: none;
-  padding: 80px 80px;
 }
 
 .container2,

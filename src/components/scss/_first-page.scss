@@ -1,72 +1,100 @@
 .container1 {
-  padding-top: 120px;
-  margin-left: 120px;
+  display: grid;
+  gap: 6rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  max-width: 1250px;
+  margin-top: 130px;
+}
 
-  .title1 {
-    display: flex;
-    font-size: large;
-    color: rgb(255, 255, 255);
-    position: relative;
-    margin-left: 1%;
-    top: 52px;
-  }
+.container22 {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-end;
 }
 
 .title2 {
-  margin-left: 5px;
-  bottom: 100px;
   @include header;
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(1, 1fr);
+
+  & .titles {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
 
   & .t1,
   .t3 {
     color: #0e5780;
-    padding-right: 5px;
   }
   & .t2 {
     color: #ff2c2c;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
+.card1 {
+  @include card;
+  height: 35rem;
+  width: 30rem;
+}
+
+.scroll {
+  font-weight: lighter;
+  font-size: xx-small;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: #0e5780;
+  letter-spacing: 7px;
+}
+
+.red-element {
+  text-align: start;
+  padding-top: 10%;
+}
+
+.title1 {
+  font-size: large;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  padding-left: 15px;
+}
+
 .information {
-  margin-top: 120px;
-  margin-left: 50px;
   font-weight: lighter;
 
   & #info1,
   #info2,
   #info3 {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
     font-size: small;
   }
   & .map,
   .phone,
   .envelope {
-    width: 100px;
     color: #0e5780;
-  }
-
-  & .scroll {
-    font-weight: lighter;
-    font-size: xx-small;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    position: absolute;
-    margin-left: 240%;
-  }
-
-  & .icon5 {
-    color: #0e5780;
-    padding: 10px;
+    margin-right: 80px;
+    margin-left: 50px;
   }
 }
 
 .icons {
-  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
 
-  & .a-link {
-    padding-right: 5px;
-  }
   & .icon1 {
     color: #0077b7;
   }
@@ -79,11 +107,4 @@
   & .icon4 {
     color: #34aaf3;
   }
-}
-
-.card1 {
-  @include card;
-  height: 26.2rem;
-  width: 24rem;
-  margin-left: 47%;
 }

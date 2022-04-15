@@ -6,22 +6,34 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 function Thirdpage() {
   return (
     <div>
-      <section className="container3" id="skills">
-        <p className="title4">Skills & Performance</p>
-        <FaChevronCircleLeft className="icon6" size="40px" />
-        <ReactLogo2 className="logo1" />
-        <div className="card3">
-          <h1 className="info">INFO</h1>
+      <div className="title4" id="skills">
+        <p>Skills & Performance</p>
+      </div>
+      <section className="container3">
+        <div>
+          <FaChevronCircleLeft className="icon6" size="50px" />
         </div>
-        <ReactLogo3 className="logo2" />
-        <div className="card3">
-          <h1 className="info">INFO</h1>
+        <div className="for-logo">
+          <ReactLogo2 className="logo1" />
+          <div className="card3">
+            <h1 className="info">INFO</h1>
+          </div>
         </div>
-        <ReactLogo4 className="logo3" />
-        <div className="card3">
-          <h1 className="info">INFO</h1>
+        <div className="for-logo">
+          <ReactLogo3 className="logo2" />
+          <div className="card3">
+            <h1 className="info">INFO</h1>
+          </div>
         </div>
-        <FaChevronCircleRight className="icon6" size="40px" />
+        <div className="for-logo">
+          <ReactLogo4 className="logo3" />
+          <div className="card3">
+            <h1 className="info">INFO</h1>
+          </div>
+        </div>
+        <div>
+          <FaChevronCircleRight className="icon6" size="50px" />
+        </div>
       </section>
     </div>
   );

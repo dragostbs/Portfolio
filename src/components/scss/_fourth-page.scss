@@ -1,18 +1,36 @@
-.title5 {
-  @include header;
-  right: 38%;
-  top: 15%;
+.container4 {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  grid-template-rows: repeat(4, 1fr);
+  max-height: 850px;
+  width: 100%;
 }
 
-.card4 {
+.title5 {
+  @include header;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.card11 {
   @include card;
   height: 12rem;
-  width: 14rem;
-  margin-top: 25%;
-  margin-left: 5.5%;
-  margin-bottom: 13%;
+  width: 70rem;
+  margin-left: 100px;
+}
 
-  & .project {
-    margin-top: 2.5rem;
-  }
+.card22 {
+  @include card;
+  height: 12rem;
+  width: 70rem;
+  margin-right: 200px;
+}
+
+.card33 {
+  @include card;
+  height: 12rem;
+  width: 70rem;
+  margin-left: 150px;
 }
