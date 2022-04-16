@@ -45,19 +45,12 @@ main {
   display: grid;
   gap: 10rem;
   place-items: center;
+  scroll-behavior: smooth;
 }
 
 p {
   color: #0e5780;
   display: inline;
-}
-
-.container2,
-.container3,
-.container4,
-.container5 {
-  display: flex;
-  position: relative;
 }
 
 .foto {
