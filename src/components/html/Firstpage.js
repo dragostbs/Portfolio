@@ -19,22 +19,22 @@ function Firstpage() {
           <ReactLogo1 />
           <ul className="titles">
             <li className="t1">I'M</li>
-            <li className="t2">DRAGOS</li>
-            <li className="t3">BOSCAN</li>
+            <li className="t2">OPLSAC</li>
+            <li className="t3">NMJKSU</li>
           </ul>
         </div>
         <div className="information">
           <div id="info1">
             <FaMapMarkerAlt className="map" />
-            <p>Str. Teodor Mihali 59</p>
+            <p>Str. Loskdm Mkdmsd 59</p>
           </div>
           <div id="info2">
             <FaPhoneAlt className="phone" />
-            <p>+373 68425320</p>
+            <p>+999 03938476</p>
           </div>
           <div id="info3">
             <FaEnvelope className="envelope" />
-            <p>dragos.boscan.tbs@gmail.com</p>
+            <p>gjkffd.vjkfgn.nfc@gmail.com</p>
           </div>
         </div>
         <ul className="icons">
