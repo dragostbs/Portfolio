@@ -1,6 +1,6 @@
 # Portfolio Template Application 🛴
 
-Web Application based on a portfolio template
+Web Application based on a portfolio template design
 
 ## Built With
 
